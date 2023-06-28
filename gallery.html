@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/683b65d101.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        .image-container {
+          position: relative;
+          width: 200px;
+          height: 200px;
+          overflow: hidden;
+        }
+    
+        .image-container img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.2s ease;
+        }
+    
+        .image-container:hover img {
+          transform: scale(1.2);
+        }
+      </style> -->
+    <title>Gallery</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="nav-container">
+            <div class="navbar-brand"><a href="index.html">Golf Gym</a></div>
+            <div class="navbar-list">
+                <ul>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#gallery" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="landing-page-area-one">
+        <div>
+            <img src="static/main_image.jpeg" alt="Golfer hitting the ball far" class="background">
+        </div>
+        <h1 class="showfeats">Gallery</h1>
+        <div id="gallery" class="wrap-container">
+            <div class="wrapper">
+                <div class="box image-container">
+                    <img src="static/gallery_images/golfer.jpg" alt="Golfer with the sun in the background" class="grid-image">
+                </div>
+                <div class="box image-container">
+                    <img src="static/gallery_images/golfer2.jpg" alt="Golfer hitting the ball" class="grid-image">
+                </div>
+                <div class="box image-container">
+                    <img src="static/gallery_images/pull-ups.jpg" alt="Man doing a pull up" class="grid-image">
+                </div>
+                <div class="box image-container">
+                    <img src="static/gallery_images/girlworkout.jpg" alt="Woman lifting weights" class="grid-image">
+                </div>
+                <div class="box image-container">
+                    <img src="static/gallery_images/running.jpg" alt="Group running on pavement" class="grid-image">
+                </div>
+                <div class="box image-container">
+                    <img src="static/gallery_images/running2.jpg" alt="Shirts" class="grid-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="bottom">
+            <div class="map">
+                <img src="static/us_map.png" alt="Map" class="mapimg">
+            </div>
+            <div class="footinfo">
+                <div class="foothead">Info</div>
+                <div class="location">
+                    <p class="tiny"><i class="fa-solid fa-location-dot"></i> Townsville, UL, 55555, USA</p>
+                </div>
+                <div class="email">
+                    <p class="tiny"><i class="fa-solid fa-envelope"></i> example@example.com</p>
+                </div>
+                <div class="phone">
+                    <p class="tiny"><i class="fa-solid fa-phone"></i> Call Us! 555-555-5555</p>
+                </div>
+            </div>
+            <div class="social">
+                <div class="foothead">Socials</div>
+                <div class="media">
+                    <a href="#"><p class="tiny"><i class="fa-brands fa-facebook"></i> Facebook</p></a>
+                </div>
+                <div class="media">
+                    <a href="#"><p class="tiny"><i class="fa-brands fa-twitter"></i> Twitter</p></a>
+                </div>
+                <div class="media">
+                    <a href="#"><p class="tiny"><i class="fa-brands fa-instagram"></i> Instagram</p></a>
+                </div>
+                <div class="media">
+                    <a href="#"><p class="tiny"><i class="fa-brands fa-youtube"></i> YouTube</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
